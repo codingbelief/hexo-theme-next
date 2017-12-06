@@ -236,7 +236,7 @@ post_wordcount:
 
 # Declare license on posts
 post_copyright:
-  enable: false
+  enable: enable
   license: CC BY-NC-SA 3.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
@@ -340,7 +340,7 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: 826a79b6e802a07500837be9fdd41fa7
 
 # Duoshuo ShortName
 #duoshuo_shortname:
@@ -391,7 +391,7 @@ livere_uid: MTAyMC8zMjE2My84NzI3
 # This plugin is more useful in China, make sure you known how to use it.
 # And you can find the use guide at official webiste: http://www.jiathis.com/.
 # Warning: JiaThis does not support https.
-#jiathis:
+#jiathis: true
   ##uid: Get this uid from http://www.jiathis.com/
 #add_this_id:
 
@@ -403,7 +403,7 @@ livere_uid: MTAyMC8zMjE2My84NzI3
 #google_site_verification:
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-51701632-1
 
 # Bing Webmaster tools verification setting
 # See: https://www.bing.com/webmaster/
@@ -500,7 +500,7 @@ busuanzi_count:
 
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
-baidu_push: false
+baidu_push: true
 
 # Google Calendar
 # Share your recent schedule to others via calendar page
