@@ -178,10 +178,10 @@ sidebar:
   offset: 12
 
   # Back to top in sidebar (only for Pisces | Gemini).
-  b2t: false
+  b2t: true
 
   # Scroll percent label in b2t button.
-  scrollpercent: false
+  scrollpercent: true
 
   # Enable sidebar on narrow view (only for Muse | Mist).
   onmobile: false
@@ -195,7 +195,7 @@ sidebar:
 scroll_to_more: false
 
 # Automatically saving scroll position on each post/page in cookies.
-save_scroll: true
+save_scroll: false
 
 # Automatically excerpt description in homepage as preamble text.
 excerpt_description: true
@@ -352,7 +352,7 @@ disqus:
   count: true
 
 # Hypercomments
-#hypercomments_id:
+hypercomments_id: 98666
 
 # changyan
 changyan:
@@ -378,7 +378,7 @@ valine:
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-livere_uid: MTAyMC8zMjE2My84NzI3
+#livere_uid: MTAyMC8zMjE2My84NzI3
 
 # Baidu Share
 # Available value:
@@ -391,7 +391,8 @@ livere_uid: MTAyMC8zMjE2My84NzI3
 # This plugin is more useful in China, make sure you known how to use it.
 # And you can find the use guide at official webiste: http://www.jiathis.com/.
 # Warning: JiaThis does not support https.
-#jiathis: true
+jiathis:
+  uid: 2151222
   ##uid: Get this uid from http://www.jiathis.com/
 #add_this_id:
 
